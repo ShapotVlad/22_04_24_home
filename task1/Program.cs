@@ -5,8 +5,8 @@
 Console.WriteLine("ввод числа");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int number1 = number%7;
-int number2 = number%23;
+int number1 = number % 7;
+int number2 = number % 23;
 int result = number1 + number2;
 
 if (result == 0)
